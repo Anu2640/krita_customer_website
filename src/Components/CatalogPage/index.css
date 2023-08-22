@@ -1,0 +1,124 @@
+.main-category-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.main-category-tabs button {
+  background-color: rgb(223, 186, 224);
+  border:2px solid violet;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+
+}
+
+.main-category-tabs button.active {
+  background-color: #3029b8;
+  color: whitesmoke;
+}
+
+/* Styling for sub-category tabs */
+.sub-category-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sub-category-tabs button {
+  background-color: rgb(223, 186, 224);
+  border: 2px solid violet;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.sub-category-tabs button.active {
+  background-color: #3029b8;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.product-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(232, 199, 232);
+}
+
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-item p {
+  font-size: 16px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration: underline;
+  font-family: "Cursive";
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+@media (width <= 992px) {
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .product-item {
+    border: 1px solid violet;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(rgb(182, 72, 167), rgb(242, 221, 239));
+    width: 47%;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+}
+
+@media (width >= 993px) {
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .product-item {
+    border: 1px solid violet;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(rgb(182, 72, 167), rgb(242, 221, 239));
+    cursor: pointer;
+    width: 18%;
+    border-radius: 20px;
+  }
+
+}
+
+button {
+  color: black;
+  margin-right: 5px;
+  border-width: 0px;
+  background-color: #eeeeee00;
+}
+

@@ -1,0 +1,48 @@
+    .designs-main-container {
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .designs-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: auto;
+        height: 455px;
+        width: 276px;
+        margin: 0px;
+        margin-left: -16px;
+    }
+
+    .designs-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .image {
+        height: 90px;
+        width: 50px;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 110px;
+        margin: 4px;
+        padding: 2px;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .selection{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        padding-bottom: 5px;
+    }

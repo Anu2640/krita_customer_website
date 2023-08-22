@@ -1,0 +1,81 @@
+.category-display-container {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(230, 230, 250);
+}
+
+.main-design-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.design-details-container {
+    border: 2px solid violet;
+    padding: 15px;
+    text-align: center;
+    background: linear-gradient(white, rgb(242, 221, 239));
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    height: 45vh;
+}
+
+.design-details-container img {
+    border-radius: 20px;
+    border: 2px solid violet;
+    width: 80%;
+    height: 70%;
+}
+
+.design-details-container p {
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: "Cursive";
+}
+
+.btn {
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    font-size: 12px;
+    color: azure;
+    margin-top: 15px;
+}
+
+
+@media (width >= 600px) and (width <= 800px) {
+    .design-details-container img {
+        height: 70%;
+        width: 85%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    } 
+
+    .design-details-container {
+        height: 50vh;
+        width: 45vw;
+    }
+    
+    .design-details-container p {
+        font-size: 20px;
+    } 
+}
+
+@media (width >= 801px) {
+    .design-details-container img {
+        height: 35vh;
+        width: 12vw;
+    } 
+
+    .design-details-container {
+        height: fit-content;
+    }
+    
+    .design-details-container p {
+        font-size: 20px;
+    } 
+}
+

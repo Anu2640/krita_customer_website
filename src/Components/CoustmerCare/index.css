@@ -1,0 +1,22 @@
+
+    .support-container{
+        width: 100%;
+        background-color: white;
+    }
+
+    .para{
+        margin-top: 0px;
+    }
+
+    .chatbot-button {
+        color: white;
+        font-size: 30px;
+        border-width: 0px;
+    }
+
+    .bot-button{
+        display: flex;
+        bottom: 38px;
+        left: 250px;
+        position: absolute;
+    }

@@ -1,0 +1,15 @@
+
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 10px;
+        background-color: white;
+    }
+
+    .upload-image{
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+    }

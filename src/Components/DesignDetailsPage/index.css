@@ -1,0 +1,33 @@
+
+.design-detail-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background-color: rgb(230, 230, 250);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.design-img {
+    height: 70vh;
+    width: 30vw;
+    border: 2px solid purple;
+    border-radius: 25px;
+}
+
+.design-details-subcontainer {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.design-details-text p {
+    font-family: 'cursive';
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+    width: fit-content;
+}

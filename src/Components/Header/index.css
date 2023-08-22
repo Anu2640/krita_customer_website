@@ -1,0 +1,111 @@
+
+  .main-containerh {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* Dropdown button style */
+  .dropdown-button {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .krita-logo{
+    align-self: center;
+    justify-self: center;
+    height: 25px;
+    width: 25px;
+    border-width: 0px;
+    border-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* Dropdown menu style */
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    padding: 4px 5px;
+    margin: 0;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    position: absolute;
+    top: 46px;
+    z-index: 1;
+  }
+
+  .menu-item{
+    text-decoration: none;
+    border-width: 0px;
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 15px;
+    margin-left: 3px;
+  }
+
+  .search_bar_container{
+    display: flex;
+    background-color: #f1fbff;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  .search-button{
+    border-width: 0px;
+    padding-top: 5px;
+    background-color: #f1fbff;
+  }
+
+  .search_bar{
+    width: 80px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #f1fbff;
+    margin: 0px;
+  }
+
+  .search-bar:focus {
+    outline: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .button {
+    color: black;
+    margin-right: 5px;
+    font-size: 20px;
+    border-width: 0px;
+    background-color: #eeeeee00;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
